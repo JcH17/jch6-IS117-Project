@@ -1,0 +1,111 @@
+/* pages background colors */
+body{
+    background-color: #f1b763;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+}
+
+main .container, .home-section .container{
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+}
+
+/* Home layout */
+.site-header {
+    background-color: transparent;
+    margin-bottom: 0;
+}
+
+.site-title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #4a1c1c;
+}
+
+.home-section {
+
+}
+
+.home-image {
+    max-width: 100%;
+    display: block;
+    border: 5px solid #800000;
+    border-radius: 0.75rem;
+}
+
+
+.home-card-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.navbar-burgundy{
+    background-color: #800000;
+}
+.navbar-burgundy .navbar-brand, .navbard-burgundy .nav-link, .navbard-burgundy .nav-toggler-icon {
+    color: #f8f9fa;
+}
+.navbar-burgundy .nav-link.active, .navbar-burgundy .nav-link:hover, .navbar-burgundy .nav-link:focus{
+    color: #ffe9c4;
+}
+
+.navbar-burgundy .dropdown-item:hover, .navbar-burgundy .dropdown-item:focus{
+    background-color: #800000;
+    color: #f8f9fa;
+}
+
+.footer-burgundy{
+    background-color: #800000;
+    color: #f8f9fa;
+}
+
+.footer-burgundy .footer-text{
+    color: #f8f9fa;
+}
+
+.home-section .card{
+    background-color: #fff3e0;
+    border: 5px solid #800000;
+}
+.card-title{
+    color: #4a1c1c;
+}
+
+.btn-primary{
+    background-color: #800000;
+    border-color: #800000;
+}
+.btn-primary:hover, .btn-primary:focus{
+    background-color: #800000;
+    border-color: #a00000;
+}
+
+.content-image{
+    max-width: 100%;
+    display: block;
+    border: 5px solid #800000;
+    border-radius: 0.75rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+
+
+#contactform .form-control{
+    border: 2px solid #800000;
+    border-radius: 0.75rem;
+}
+
+#contactform .form-control:focus{
+    border-color: #800000;
+    box-shadow: 0 0 0 0.2rem rgba(128, 0, 0, 0.25);
+}
+
+@media (max-width: 767.98px) {
+    .home-card-grid {
+        grid-template-columns: 1fr;
+    }
+    .site-title {
+        font-size: 1.8rem;
+    }
+}
