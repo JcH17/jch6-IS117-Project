@@ -1,6 +1,6 @@
 /* pages background colors */
 body{
-    background-color: #f1b763;
+    background-color: #face65;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12pt;
 }
@@ -12,12 +12,13 @@ main .container, .home-section .container{
 
 /* Home layout */
 .site-header {
-    background-color: transparent;
+    /*background-color: #800000;*/
+    background-image: linear-gradient(to top, #800000, yellow);
     margin-bottom: 0;
 }
 
 .site-title {
-    font-size: 2.2rem;
+    font-size: 3rem;
     font-weight: 700;
     color: #4a1c1c;
 }
@@ -85,7 +86,7 @@ main .container, .home-section .container{
     max-width: 100%;
     display: block;
     border: 5px solid #800000;
-    border-radius: 0.75rem;
+    border-radius: 1.75rem;
     margin-bottom: 1rem;
     margin-left: 1rem;
 }
