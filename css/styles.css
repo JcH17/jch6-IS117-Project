@@ -61,6 +61,9 @@ main .container, .home-section .container{
 .footer-burgundy{
     background-color: #800000;
     color: #f8f9fa;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 .footer-burgundy .footer-text{
